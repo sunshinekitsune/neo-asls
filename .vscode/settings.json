@@ -1,0 +1,53 @@
+{
+	"[javascript]": {
+		"editor.defaultFormatter": "biomejs.biome",
+		"editor.showUnused": false
+	},
+	"[json]": {
+		"editor.codeActionsOnSave": {
+			"source.fixAll.biome": "explicit"
+		}
+	},
+	"[markdown]": {
+		"editor.wordWrap": "wordWrapColumn",
+		"editor.wordWrapColumn": 100
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "biomejs.biome",
+		"editor.showUnused": false
+	},
+	"biome.requireConfiguration": true,
+	"biome.runFromTemporaryLocation": true,
+	"biome.suggestInstallingGlobally": false,
+	"css.validate": false,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.biome": "explicit",
+		"source.organizeImports": "never",
+		"source.organizeImports.biome": "explicit"
+	},
+	"editor.defaultFormatter": "biomejs.biome",
+	"editor.detectIndentation": false,
+	"editor.formatOnSave": true,
+	"editor.insertSpaces": false,
+	"editor.quickSuggestions": {
+		"strings": true
+	},
+	"editor.rulers": [100],
+	"editor.tabSize": 3,
+	"editor.wordWrap": "wordWrapColumn",
+	"editor.wordWrapColumn": 100,
+	"files.eol": "\n",
+	"js/ts.format.enabled": false,
+	"js/ts.suggestionActions.enabled": false,
+	"js/ts.tsdk.path": "./node_modules/typescript/lib",
+	"json.schemaDownload.trustedDomains": {
+		"https://biomejs.dev": true,
+		"https://developer.microsoft.com/json-schemas/": true,
+		"https://json-schema.org/": true,
+		"https://json.schemastore.org/": true,
+		"https://raw.githubusercontent.com/devcontainers/spec/": true,
+		"https://raw.githubusercontent.com/microsoft/vscode/": true,
+		"https://schemastore.azurewebsites.net/": true,
+		"https://www.schemastore.org/": true
+	}
+}

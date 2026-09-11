@@ -1,0 +1,35 @@
+{
+	"name": "neo-asls",
+	"version": "1.0.0",
+	"description": "A (new) language server for AssemblyScript.",
+	"keywords": [],
+	"license": "Apache-2.0",
+	"author": {
+		"name": "sunshinekitsune",
+		"url": "https://github.com/sunshinekitsune"
+	},
+	"type": "module",
+	"main": "index.js",
+	"scripts": {},
+	"dependencies": {
+		"assemblyscript": "^0.28.20",
+		"vscode-languageserver": "^10.1.1",
+		"vscode-languageserver-textdocument": "^1.0.14"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^2.5.12",
+		"@felixarntz/biome": "^0.2.0",
+		"@total-typescript/ts-reset": "^0.6.1",
+		"@types/node": "^22.20.2",
+		"biome-plugin-no-type-assertion": "^1.1.1",
+		"esbuild": "^0.28.2",
+		"typescript": "^7.0.2"
+	},
+	"devEngines": {
+		"packageManager": {
+			"name": "pnpm",
+			"version": "^11.20.0",
+			"onFail": "download"
+		}
+	}
+}

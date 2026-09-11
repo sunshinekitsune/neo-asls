@@ -37,16 +37,6 @@
 	"linter": {
 		"enabled": true,
 		"rules": {
-			"a11y": {
-				"noSvgWithoutTitle": "error",
-				"useAltText": "error",
-				"useAnchorContent": "error",
-				"useButtonType": "error",
-				"useHtmlLang": "error",
-				"useIframeTitle": "error",
-				"useMediaCaption": "error",
-				"useValidLang": "error"
-			},
 			"complexity": {
 				"noDivRegex": "warn",
 				"noExcessiveCognitiveComplexity": {

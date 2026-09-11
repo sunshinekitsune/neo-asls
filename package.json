@@ -10,7 +10,14 @@
 	},
 	"type": "module",
 	"main": "index.js",
-	"scripts": {},
+	"scripts": {
+		"build": "esbuild src/index.ts --bundle --platform=node --format=esm --target=node22 --outfile=dist/server.js --external:assemblyscript",
+		"check": "tsc --noEmit",
+		"format": "biome format --write src",
+		"lint": "biome check src",
+		"test": "node --test",
+		"watch": "pnpm build --watch"
+	},
 	"dependencies": {
 		"assemblyscript": "^0.28.20",
 		"vscode-languageserver": "^10.1.1",

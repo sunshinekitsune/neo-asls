@@ -61,7 +61,11 @@
 				"noUnknownProperty": "error",
 				"noUnknownPseudoClass": "error",
 				"noUnknownPseudoElement": "error",
-				"noUnresolvedImports": "off"
+				"noUnresolvedImports": "off",
+				"noUnusedImports": {
+					"fix": "safe",
+					"level": "warn"
+				}
 			},
 			"nursery": {
 				"noEmptyObjectKeys": "warn",

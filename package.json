@@ -13,8 +13,8 @@
 	"scripts": {
 		"build": "esbuild src/index.ts --bundle --platform=node --format=esm --target=node22 --outfile=dist/server.js --packages=external",
 		"check": "tsc --noEmit",
-		"format": "biome format --write src",
-		"lint": "biome check src",
+		"format": "biome format --write src tests",
+		"lint": "biome check src tests",
 		"test": "node --test",
 		"watch": "pnpm build --watch"
 	},

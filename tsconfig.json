@@ -15,8 +15,10 @@
 		"noPropertyAccessFromIndexSignature": true,
 		"noUncheckedIndexedAccess": true,
 		"noUncheckedSideEffectImports": true,
-		"noUnusedLocals": true,
-		"noUnusedParameters": true,
+		// Covered by Biome
+		"noUnusedLocals": false,
+		// Covered by Biome
+		"noUnusedParameters": false,
 		"outDir": "./dist",
 		"rootDir": "./src",
 		"skipLibCheck": true,
@@ -25,5 +27,6 @@
 		"target": "esnext",
 		"types": ["node"],
 		"verbatimModuleSyntax": true
-	}
+	},
+	"include": ["src/**/*"]
 }
